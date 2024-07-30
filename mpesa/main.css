@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+}
+.card{
+    margin: 00px auto;
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    position: relative;
+}
+.logos{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+.saf{
+    width: 200px;
+    position: relative;
+}
+.saf img{
+    width: 100%;
+}
+.mpesa{
+    width: 200px;
+    position: relative;
+}
+.mpesa img{
+    width: 100%;
+}
+h1 {
+    position: absolute;
+    color: green;
+    right: 0;
+    margin-top: -20px;
+}
+h2{
+    font-weight: bold;
+    margin-top: -50px;
+    position: absolute;
+    right: 10%;
+    text-transform: uppercase;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 2rem;
+    position: relative;
+}
+.simcard{
+    color: goldenrod;
+    transform: rotate(90deg);
+    font-size:5rem
+
+}
+.wifi{
+    font-size: 3rem;
+    transform: rotate(90deg);
+    position: absolute;
+    top:30%;
+    right: 15%;
+}
+.number{
+    font-size: 2rem;
+    font-family: monospace;
+    padding-left: 15px;
+    margin-top: -15px;
+}
+.number p{
+    font-size: 1rem;
+    margin-top: -50px;
+    padding-left: 5px;
+}
+.name{
+    padding-left: 15px;
+    font-size: 1rem;
+}
+.member{
+    display: flex;
+}
+.visa{
+    position: absolute;
+    font-size: 3rem;
+    right: 5%;
+}
